@@ -32,17 +32,16 @@ header {
     width: auto;
     background-color: white;
     position: relative;
-    padding-top: 10px;
+    padding-top: 20px;
+    position: relative;
 }
 
-.first_line, .second_line {
-    position: relative;
-    padding-top: 15px;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+.line {
+    text-align: center;
 }
+
+
+/* Schede prodotti */
 
 .scheda_prodotto {
     width: 300px;
@@ -50,8 +49,9 @@ header {
     background-color: #EEEDED;
     border-radius: 10px;
     border: 1px solid #ded9d9;
-    position: relative;
+    margin: 5px;
     display: inline-block;
+    position: relative;
 }
 
 .immagine_prodotto {
