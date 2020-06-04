@@ -54,10 +54,16 @@ header {
     position: relative;
 }
 
+.scheda_prodotto:hover + .cuore {
+    visibility: visible;
+}
+
 .scheda_prodotto:hover {
     background-color: white;
     border: 3px solid red;
+    visibility: visible;
 }
+
 
 .immagine_prodotto {
     width: 170px;
@@ -93,7 +99,7 @@ header {
 }
 
 .cuore {
-    color: #f7f7f7;
+    color: red;
     width: 35px;
     height: 35px;
     font-size: 40px;
@@ -101,10 +107,7 @@ header {
     bottom: 15px;
     left: 103px;
     text-align: center;
-}
-
-.scheda_prodotto .cuore:hover {
-    color: red;
+    visibility: hidden;
 }
 
 strong[title="10"]  {
