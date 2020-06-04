@@ -54,14 +54,10 @@ header {
     position: relative;
 }
 
-.scheda_prodotto:hover + .cuore {
-    visibility: visible;
-}
 
 .scheda_prodotto:hover {
     background-color: white;
     border: 3px solid red;
-    visibility: visible;
 }
 
 
@@ -75,7 +71,7 @@ header {
     left: 0;
 }
 
-.immagine_prodotto:hover {
+.scheda_prodotto:hover .immagine_prodotto {
     border: 3px solid white;
 }
 
@@ -99,15 +95,23 @@ header {
 }
 
 .cuore {
-    color: red;
+    color: #c0c0c0;
     width: 35px;
     height: 35px;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     bottom: 15px;
     left: 103px;
     text-align: center;
     visibility: hidden;
+}
+
+.cuore:hover {
+    color: red;
+}
+
+.scheda_prodotto:hover .cuore {
+    visibility: visible;
 }
 
 strong[title="10"]  {
