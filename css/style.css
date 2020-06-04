@@ -17,3 +17,48 @@ header {
 #logo img {
     width: 150px;
 }
+
+/* Sezione prodotti */
+
+.area_prodotti {
+    width: auto;
+    height: 400px;
+    background-color: red;
+    position: relative;
+}
+
+.scheda_prodotto {
+    width: 300px;
+    height: 350px;
+    background-color: #EEEDED;
+    border-radius: 10px;
+    border: 1px solid #ded9d9;
+    position: relative;
+}
+
+.immagine_prodotto {
+    width: 130px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.scontistica {
+    width: 70px;
+    height: 35px;
+    background-color: yellow;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.scontistica p {
+    text-align: center;
+    line-height: 35px;
+    font-size: 23px;
+}
