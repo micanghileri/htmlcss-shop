@@ -9,35 +9,70 @@
 
 header {
     padding-top: 25px;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-bottom: 25px;
-    background-color: white;
+    background-color: #f2f2f2;
 }
 
 #logo img {
-    width: 270px;
+    width: 300px;
 }
 
 .barra_ricerca {
-    width: auto;
+    width: 300px;
     height: 50px;
     padding-top: 15px;
     padding-left: 30px;
-    background-color: red;
+    background-color: Red;
+    border-radius: 8px;
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    right: 50px;
 }
 
 /* Sezione prodotti */
 
-.area_prodotti {
+h2 {
+    font-size: 45px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    color: grey;
+    display: inline-block;
+    border-bottom: 3px solid red;
+}
+
+h2:hover {
+    color: red;
+}
+
+.area_prodotti_piu_venduti {
     width: auto;
     background-color: white;
     position: relative;
-    padding-top: 20px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.area_altri_prodotti {
+    width: auto;
+    background-color: white;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
     position: relative;
 }
 
 .line {
     text-align: center;
+}
+
+.line_top {
+    text-align: center;
+    background-color: #ffe680;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -160,4 +195,20 @@ strong[title="40"], strong[title="50"]  {
     text-align: left;
     line-height: 35px;
     font-size: 27px;
+}
+
+/* Footer */
+
+footer {
+    background-color: white;
+    width: auto;
+    height: 100px;
+    border-top: 3px solid red;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+#logo_footer img {
+    width: 100px;
 }

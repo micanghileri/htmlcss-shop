@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>bBay</title>
+        <title>bBay - Il tuo Shopping</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" type="image/png" href="img/icon_logo.png">
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&display=swap" rel="stylesheet">
@@ -14,9 +14,6 @@
             <div id="logo">
                 <img src="img/bBay.png" alt="Logo bBay">
             </div>
-        </header>
-
-        <main>
             <!-- Ricerca prodotti -->
             <section class="barra_ricerca">
                 <div>
@@ -26,10 +23,13 @@
                     </form>
                 </div>
             </section>
-            <!-- Intera sezione prodotti -->
-            <div class="area_prodotti">
-            <!-- prima linea prodotti -->
-                <div class="line">
+        </header>
+
+        <main>
+            <!-- prodotti più venduti -->
+            <h2>I più venduti</h2>
+            <div class="area_prodotti_piu_venduti">
+                <div class="line_top">
                     <div class="scheda_prodotto">
                         <img class="immagine_prodotto" src="https://www.unionwireless.com/content/images/thumbs/0000387_apple-iphone-x_550.png" alt="iPhone X">
                             <div class="scontistica">
@@ -79,7 +79,13 @@
                             </div>
                     </div>
                 </div>
-            <!-- seconda linea prodotti -->
+            </div>
+                <br>
+
+            <!-- altri prodotti -->
+            <h2>Altri prodotti</h2>
+            <div class="area_altri_prodotti">
+                <br>
                 <div class="line">
                     <div class="scheda_prodotto">
                         <img class="immagine_prodotto" src="https://images.samsung.com/is/image/samsung/au_UA49K5500AWXXY_006_Front_black?$L1-Thumbnail$" alt="Tv Samsung">
@@ -130,7 +136,6 @@
                             </div>
                     </div>
                 </div>
-            <!-- terza linea prodotti -->
                 <div class="line">
                     <div class="scheda_prodotto">
                         <img class="immagine_prodotto" src="https://pluspng.com/img-png/xbox-png-xbox-png-pic-1267.png" alt="Xbox One">
@@ -182,11 +187,13 @@
                     </div>
                 </div>
             </div>
-
         </main>
 
         <footer>
-
+            <div id="logo_footer">
+                <img src="img/bBay.png" alt="Logo bBay">
+                <p>Made with &#128555; by Michele</p>
+            </div>
         </footer>
 
     </body>
