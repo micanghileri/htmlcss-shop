@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/* Header logo */
+
+header {
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    background-color: #EEEDED;
+}
+
+#logo img {
+    width: 150px;
+}
