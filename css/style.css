@@ -18,13 +18,30 @@ header {
     width: 150px;
 }
 
+.barra_ricerca {
+    width: auto;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 30px;
+    background-color: #ded9d9;
+}
+
 /* Sezione prodotti */
 
 .area_prodotti {
     width: auto;
-    height: 400px;
-    background-color: red;
+    background-color: white;
     position: relative;
+    padding-top: 10px;
+}
+
+.first_line, .second_line {
+    position: relative;
+    padding-top: 15px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .scheda_prodotto {
@@ -34,6 +51,7 @@ header {
     border-radius: 10px;
     border: 1px solid #ded9d9;
     position: relative;
+    display: inline-block;
 }
 
 .immagine_prodotto {
